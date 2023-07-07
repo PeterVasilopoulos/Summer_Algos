@@ -28,6 +28,12 @@ class BST {
         // create a new node 
         const newNode = new Node(data)
 
+        // check if bst is empty
+        if(!this.head) {
+            // if empty, make new node the head
+            this.head = newNode
+        }
+
         // create a runner variable
         let runner = this.head
         // create a runner to hold previous node
