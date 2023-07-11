@@ -32,7 +32,7 @@ class BST {
         if(!this.head) {
             // if empty, make new node the head
             this.head = newNode
-        }
+        } 
 
         // create a runner variable
         let runner = this.head
